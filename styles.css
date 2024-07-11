@@ -1,0 +1,15 @@
+body {
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #333;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#temperature, #description, #rain {
+    font-size: 1.2em;
+}

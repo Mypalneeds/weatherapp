@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="my-4">Weather App</h1>
+        <button class="btn btn-primary mb-4" onclick="getLocation()">Get Weather</button>
+        <div id="weather-info" class="d-none">
+            <h3 id="location"></h3>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="rain"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
